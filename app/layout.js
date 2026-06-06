@@ -12,7 +12,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en" data-theme="light" className={geist.className}>
+    <html lang="en" data-theme="light" className={`${geist.className} scroll-smooth`} >
       <body className="h-full antialiased">
         {children}
         </body>

@@ -1,8 +1,8 @@
 
 export const Pricing = () => {
     return (
-        <section className="bg-base-200">
-            <div className="py-32 px-8 max-w-5xl mx-auto">
+        <section className="bg-base-200" id="pricing">
+            <div className="py-20 px-8 max-w-5xl mx-auto">
                 <p className="text-primary uppercase font-medium text-center mb-2">Pricing</p>
                 <h2 className="text-center text-3xl font-extrabold mb-8 lg:text-4xl">A Pricing that adopts to your needs</h2>
                 <div className="bg-base-100 p-8 rounded-3xl max-w-96 mx-auto">

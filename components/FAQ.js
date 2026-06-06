@@ -2,7 +2,7 @@ import { ListItemFAQ } from "./ListItemFAQ";
 
 export const FAQ = () => {
     return (
-        <section className="py-32 px-8 max-w-5xl mx-auto">
+        <section className="py-20 px-8 max-w-5xl mx-auto" id="faq">
             <p className="text-primary uppercase font-medium mb-2">FAQ</p>
             <h2 className="text-3xl font-extrabold mb-8 lg:text-4xl">Frequently asked questions</h2>
             {

@@ -6,8 +6,8 @@ export const Header = () => {
             <div className="max-w-5xl mx-auto px-8 py-4 flex justify-between items-center">
                 <div className="font-bold text-lg">Insighto.</div>
                 <div className="space-x-4 max-md:hidden">
-                    <a className="link link-hover">Pricing</a>
-                    <a className="link link-hover">FAQ</a>
+                    <a className="link link-hover" href="#pricing">Pricing</a>
+                    <a className="link link-hover" href="#faq">FAQ</a>
                 </div>
                 <ButtonLogin/>
             </div>

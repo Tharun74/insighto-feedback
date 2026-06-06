@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 
-export const ListItemFAQ = ({ question, qa }) => {
+export const ListItemFAQ = ({ qa }) => {
     const [isOpen, setIsOpen] = useState(false);
     return (
         <div className="max-w-5xl mx-auto">
